@@ -52,13 +52,13 @@ async def video(client, message):
     ffile = file.replace("mp3", "mp4")
     os.rename(file, ffile)
     buttons = [[
-        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/TG_UPDATES1")
+        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/+iVX24lYWqRZhZjFl")
     ]]                           
     await message.reply_video(
-    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @TG_UPDATES1 ",thumb=thumbnail,
+    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @Movies_villae ",thumb=thumbnail,
     reply_markup=InlineKeyboardMarkup(buttons)
 )
-    await message.reply_text(text="download mp3 song @TG_LINKS_CHANNEL")
+    await message.reply_text(text="download mp3 song @Movies_villae")
     os.remove(ffile)
     os.remove(thumbnail)
     await pak.delete()
@@ -106,7 +106,7 @@ async def song(client, message):
 async def r_message(client, message):
     mention = message.from_user.mention
     buttons = [[
-        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/TG_UPDATES1')
+        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/+iVX24lYWqRZhZjFl')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(START_MESSAGE.format(message.from_user.mention, message.chat.title),
