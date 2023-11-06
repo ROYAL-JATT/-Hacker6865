@@ -1,6 +1,6 @@
 services:
   # A Docker web service
-  - type: stream-feature
+  - type: web
     name: TG_BOTZ 
     env: python
     startCommand: python3 bot.py
@@ -11,4 +11,5 @@ services:
     branch: stream-feature # optional (defaults to master)
     numInstances: 1 # optional (defaults to 1)
     healthCheckPath: /
-#End of yaml
+    
+  #End of yaml
