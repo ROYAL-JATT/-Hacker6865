@@ -303,12 +303,12 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b>Query: {query}
 IMDb Data:
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>
-👑 Powered by : @Hindi_movies_villa"""
+🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
+🎭 Gᴇɴʀᴇs: {genres}
+📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
+⏱️ Rᴇsᴜʟᴛ Sʜᴏᴡɴ ɪɴ: {remaining_seconds} <i>sᴇᴄᴏɴᴅs</i> 🔥
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10</b>
+👑 Pᴏᴡᴇʀᴇᴅ ʙʏ : @MOVIES_VILLA_UPDATE"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
