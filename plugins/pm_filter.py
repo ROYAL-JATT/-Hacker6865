@@ -1289,7 +1289,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('❛━━･❪ ❁Cʜᴀɴɴᴇʟ❁ ❫･━━❜'', url=CHNL_LNK),
+                    InlineKeyboardButton('❛━━･❪ ❁Cʜᴀɴɴᴇʟ❁ ❫･━━❜', url=CHNL_LNK),
                     InlineKeyboardButton('...╰──╮Mᴏᴠɪᴇ Gʀᴏᴜᴘ╭──╯...', url="https://t.me/search_movie45")
                 ],[
                     InlineKeyboardButton('☆★→Hᴇʟᴘ←☆★', callback_data='help'),
