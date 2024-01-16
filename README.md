@@ -113,7 +113,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ROYAL-JATT/TG_BOTZ/tree/stream-feature">
+<a href="https://heroku.com/deploy?template=https://github.com/ROYAL-JATT/-Hacker6865/tree/stream-feature">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
