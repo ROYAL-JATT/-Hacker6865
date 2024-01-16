@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('...╰──╮Mᴏᴠɪᴇ Gʀᴏᴜᴘ╭──╯...', url="https://t.me/search_movie45")
                 ],[
                     InlineKeyboardButton('☆★→Hᴇʟᴘ←☆★', callback_data='help'),
-                    InlineKeyboardButton('🌈⃤Aʙᴏᴜᴛ🌈⃤, callback_data='about')
+                    InlineKeyboardButton('🌈⃤Aʙᴏᴜᴛ🌈⃤', callback_data='about')
                 ],[
                     InlineKeyboardButton('✧༝┉˚*❋Eᴀʀɴ Mᴏɴᴇʏ❋*˚┉༝✧', callback_data="shortlink_info")
                   ]]
